@@ -11,10 +11,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber-report.json" ,
                 "junit:target/cucumber.xml"},
         glue = {"stepDefenitions"},
-
-
-
-        features = "src/main/resources/features",
+        features = "src/test/resources/features",
         tags = {"@login"},
 
         monochrome = true
