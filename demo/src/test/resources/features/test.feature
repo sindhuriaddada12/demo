@@ -9,3 +9,7 @@ Feature: perform operations on numbers
       | a | b | action   | result |
       | 3 | 4 | multiply | 12     |
       | 3 | 5 | multiply | 15     |
+
+  @testenv
+  Scenario: perform operations on numbers
+    Given test env

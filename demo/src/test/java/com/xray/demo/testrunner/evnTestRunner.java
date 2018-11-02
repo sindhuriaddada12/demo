@@ -1,4 +1,4 @@
-package testrunner;
+package com.xray.demo.testrunner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -12,10 +12,13 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber.xml"},
         glue = {"stepDefenitions"},
         features = "src/test/resources/features",
-        tags = {"@login"},
+        tags = {"@testenv"},
 
         monochrome = true
 )
 
-public class exampleTestRunner {
+public class evnTestRunner {
 }
+
+
+
